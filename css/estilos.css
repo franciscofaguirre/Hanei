@@ -8,4 +8,73 @@ Padding: 0;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
+/* GENÉRICOS */
+.centrar{
+    text-align: center;
+}
+
+.padding{
+    padding: 0;
+    border: 0;
+}
+
+
 /* HEADER */
+.menuBox{
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.tamañoImg1{
+    width: 200px;
+    height: 200px;
+
+}
+
+.tamañoImg2{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+/* SI NO SE USA BORRAR */
+.header{
+    background-color: #87986a;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.headerLogo img{
+    width: 120px;
+    padding: 7px;   
+}
+
+.headerMenu ul{
+    margin-top: 16px;
+}
+
+.headerMenu ul li{
+    display: inline;
+    justify-content:flex-end;
+    text-align: center;
+    margin-right: 5px;
+}
+      
+nav ul li a{
+        color: white;
+        padding-right: 8px;
+        text-decoration: none;
+    }
+
+nav ul li a:hover{
+    color: black;
+}
