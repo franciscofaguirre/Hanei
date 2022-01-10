@@ -36,16 +36,12 @@ Padding: 0;
     height: 40px;
 }
 
-.borde{
+.borde{ 
     border-color: #e9ecef;
-    background-color: white;
+    background-color: #f8f9fa;
     box-shadow: none;
     box-decoration-break: none;
     box-sizing: none;
-}
-
-.borde: hover{
-    background-color: none;
 }
 
 
