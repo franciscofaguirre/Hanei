@@ -23,7 +23,7 @@ Padding: 0;
 .menuBox{
     background-color: #f8f9fa;
     border: none;
-}
+} 
 
 .tamañoImg1{
     width: 200px;
@@ -36,7 +36,17 @@ Padding: 0;
     height: 40px;
 }
 
+.borde{
+    border-color: #e9ecef;
+    background-color: white;
+    box-shadow: none;
+    box-decoration-break: none;
+    box-sizing: none;
+}
 
+.borde: hover{
+    background-color: none;
+}
 
 
 
