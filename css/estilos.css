@@ -20,23 +20,10 @@ Padding: 0;
 
 
 /* HEADER */
-.menuBox{
-    background-color: #f8f9fa;
-    border: none;
-} 
-
-.tamañoImg1{
+.imgLogo{
     width: 200px;
     height: 200px;
 
-}
-
-.boxLupa{
-    width: 100%;
-    height: 100%;
-    border-color: #e9ecef ;
-    padding: 0;
-    
 }
 
 .boxMenu{ 
@@ -47,9 +34,38 @@ Padding: 0;
     box-sizing: none;
 }
 
+.boxMenuProductos{
+    background-color: #f8f9fa;
+    border: none;   
+}
+
+
 .boxBuscador{
     border-color: #e9ecef;
+    margin: 0.5rem 0px 0.5rem 0.5rem !important;    
 }
+
+.boxLupa{
+    width: 70%;
+    height: 70%;
+    border-color: #e9ecef ;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.container-fluid{
+    padding-right: 0px;
+}
+
+/* .bg-light{
+    background-color: red !important, */
+} 
+/* clase para cambiar el color del menu */
+
 
 
 
