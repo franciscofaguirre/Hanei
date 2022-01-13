@@ -24,7 +24,7 @@ a:link, a:visited, a:active {
 
 /* BODY */
 .colorFondo{
-    background-color: rgb(238, 230, 230);
+    background-color: rgb(163, 68, 68);
 }
 
 
@@ -48,6 +48,9 @@ a:link, a:visited, a:active {
     border: none;   
 }
 
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #FFFCF7;
+  }
 
 .boxBuscador{
     border-color: #e9ecef;
@@ -73,18 +76,6 @@ a:link, a:visited, a:active {
 .bg-light {
     background-color: #FFFCF7 !important;
 }
-
-/* --bs-body-bg{
-    background-color: none;
-} */
-/* .bg-light{
-    background-color: red !important, */
-} 
-/* clase para cambiar el color del menu */
-
-
-
-
 
 
 
