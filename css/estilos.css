@@ -30,11 +30,16 @@ a:link, a:visited, a:active {
 }
 
 .boxMenu{ 
-    border-color: #e9ecef;
+   
     background-color: white;
+    border: 1px;
     box-shadow: none;
     box-decoration-break: none;
     box-sizing: none;
+}
+
+a {
+    color: white;
 }
 
 .boxMenuProductos{
@@ -206,7 +211,7 @@ ul{
 
     /* CAROUSEL */
     .tamañoImg{
-    width: 90%;
+    width: 95%;
     margin: 3% auto;
     }
 
