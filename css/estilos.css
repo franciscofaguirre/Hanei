@@ -25,8 +25,8 @@ a:link, a:visited, a:active {
 
 /* HEADER */
 .imgLogo{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .boxMenu{ 
@@ -96,26 +96,23 @@ ul{
 
 .footerRow {
     margin-top: 10px;
+    padding-left: 8.5rem;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     background-color: #EBDBBD;
 }
 
 .footerRow2 {
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     background-color: #EBDBBD;
 }
 
-.footerSocial {
-    width: 50%;
-    display: flex;
-    justify-content:flex-start;
-}
 .footerMenu ul {
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -124,21 +121,8 @@ ul{
 }
 
 .footerMenu a {
-    color: black;
-}
-
-.footerMenu, .footerSocial {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-}
-
-.footerSocial a:not(:first-child){
-    margin-left: 20px;
-}
-
-.footerSocial img {
-    height: 40px;
+    color: white;
+    font-weight: bold;
 }
 
 .footerForm {
@@ -159,11 +143,26 @@ ul{
 }
 
 .footerForm input[type="submit"] {
-    background-color: white;
+    background-color: #B9AB8E;
     border: 1px;
-    color: black;
+    color: white;
+    font-weight: ;
     width: 50%;
     padding: 0;
+}
+
+.footerSocial {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSocial a:not(:first-child){
+    margin-left: 20px;
+}
+
+.footerSocial img {
+    height: 35px;
 }
 
 .footerDerechos{
@@ -180,6 +179,7 @@ ul{
     .footerRow {
         flex-direction: column;
         align-items: center;
+        padding-left: 0px;
     }
 
     .footerForm {
@@ -209,7 +209,7 @@ ul{
     }
 
     .footerSocial img {
-        height: 40px;
+        height: 30px;
         margin-bottom: 10px;
     }
     
