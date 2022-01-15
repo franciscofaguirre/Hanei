@@ -45,7 +45,7 @@ a:link, a:visited, a:active {
 }
 
 .dropdown-item:focus, .dropdown-item:hover, .dropdown-item:active, .dropdown-item:visited{
-    background-color: #EBDBBD;
+    background-color: rgb(255, 245, 245);
 }
 
 .d-flex{
@@ -171,6 +171,7 @@ ul{
 
 .footerDerechos{
     font-size: 0.8rem;
+    margin-bottom: 4px;
 }
 
 
@@ -214,6 +215,7 @@ ul{
     /* FOOTER */
     .footerDerechos{
         font-size: 0.8rem;
+        margin-bottom: 1px;
     }
 
     .footerSocial img {
@@ -222,4 +224,11 @@ ul{
     }
     
 }
+/* 
+<nav class="nav nav-tabs" id="nav-tab" role="tablist">
+<a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"> Producto 1</a>
 
+<a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Producto 2 </a>
+
+<a class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" href="#nav-disabled" role="tab" aria-controls="nav-disabled" tabindex="-1" aria-disabled="false"> Producto 3 </a>
+</nav> */
