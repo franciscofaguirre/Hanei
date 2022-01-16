@@ -144,7 +144,8 @@ button{
 .card-body{
     width: 80%;
     height: 3% auto;
-    margin-left: 10%;
+    padding: 0px;
+    margin: 0 0 0 10%;
 }
 
 .card1 {
@@ -287,6 +288,9 @@ ul{
         height: 35px;
     }
     
+    .card-body{
+        margin: 5% 0 0 10%;
+    }
     
     .subMenu ul{
         flex-direction: flex;
@@ -306,7 +310,7 @@ ul{
 
     /* SECCIONES DEL SUB-MENU */
     .card1 {
-        margin: 0 0 0 5%;
+        margin: 0 0 0 0;
     }
 
 
