@@ -48,8 +48,8 @@
                                 Productos
                             </a>
                             <ul class="boxMenuProductos dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Deco</a></li>
                                 <li><a class="dropdown-item" href="#">Textiles</a></li>
+                                <li><a class="dropdown-item" href="#">Deco</a></li>
                                 <li><a class="dropdown-item" href="#">Exteriores</a></li>
                             </ul>
                         </li>
@@ -67,7 +67,7 @@
 
     </header>
 
-
+    <!-- CAROUSEL -->
     <div id="carouselExampleIndicators" class="tamañoImg carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -101,51 +101,299 @@
     </div>
 
 
-    <div class="">
-        <nav class="subMenu">
-            <ul>
-                <li> <button class="btn btn-outline-secondary" type="button"> <a href="./index.html"> Textiles </a> </li></button>
-                <li> <button class="btn btn-outline-secondary" type="button"> <a href="#servicios"> Deco </a></li></button>
-                <li> <button class="btn btn-outline-secondary" type="button"> <a href="#nosotras"> Exteriores </a> </li></button>
+
+    <!-- SUB-MENU -->
+    <div class="card">
+        <div class="subMenu">
+            <ul class="nav" id="myTab" role="tablist">
+                <li class="nav-item btn btn-outline-secondary" role="presentation">
+                    <a class="" id="textiles-tab" data-bs-toggle="tab" href="#textiles" role="tab" aria-controls="textiles"
+                        aria-selected="false"><span style="color: white">Textiles</span></a>
+                </li>
+                <li class="nav-item btn btn-outline-secondary" type="button">
+                    <a class="" id="deco-tab" data-bs-toggle="tab" href="#deco" role="tab" aria-controls="deco"
+                        aria-selected="true"><span style="color: white">Deco</span></a>
+                </li>
+                <li class="nav-item btn btn-outline-secondary" type="button">
+                    <a class="" id="exteriores-tab" data-bs-toggle="tab" href="#exteriores" role="tab"
+                        aria-controls="disabled" tabindex="-1" aria-disabled="true"><span
+                            style="color: white">Exteriores</span></a>
+                </li>
             </ul>
-        </nav>
+        </div>
+
+        <!-- SECCIONES DEL SUB-MENU -->
+        <div class="card-body">
+            <div class="tab-content" id="myTabContent">
+
+                <!--FOTOS SUB-MENU 1 -->
+                <div class="tab-pane fade show active" id="textiles" role="tabpanel" aria-labelledby="textiles-tab">
+                    
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class=" card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--FOTOS SUB-MENU 2  -->
+                <div class="tab-pane fade" id="deco" role="tabpanel" aria-labelledby="deco-tab">
+                    
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class=" card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!--FOTOS SUB-MENU 3  -->    
+                </div>
+                <div class="tab-pane fade" id="exteriores" role="tabpanel" aria-labelledby="exteriores-tab">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class=" card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card1">
+                                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-
-
-      <br>
-      <br>
-      <br>
-  
-
-    
 
 
 
-      <br>
-      <br>
-      <br>
-   -->
 
-
-    <div class="colorFondo centrar">
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta voluptatem tenetur quam, eligendi
-            enim
-            exercitationem natus eos tempore dolor. Ab adipisci unde quaerat sunt ratione, rem cupiditate magni
-            reprehenderit?</div>
-
-
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta voluptatem tenetur quam, eligendi
-            enim
-            exercitationem natus eos tempore dolor. Ab adipisci unde quaerat sunt ratione, rem cupiditate magni
-            reprehenderit?</div>
-
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta voluptatem tenetur quam, eligendi
-            enim
-            exercitationem natus eos tempore dolor. Ab adipisci unde quaerat sunt ratione, rem cupiditate magni
-            reprehenderit?</div>
-
-
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class=" card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card1">
+                <img src="./image/lona1.jpg" class="card-img-top" alt="card-grid-image">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -182,7 +430,7 @@
                 <a href="https://www.google.com/gmail/"><img src="./image/mail.png" alt="Mail Link"></a>
             </div>
         </div>
-       
+
         <div class="footerRow2">
             <p class="footerDerechos"> Todos los derechos reservados</p>
         </div>
