@@ -273,8 +273,17 @@ ul{
     }
 
     /* SUB-MENU */
+    .subMenu button{
+        width: 100px;
+        height: auto;
+        color: white;
+        margin: 1% 2% 5%x 2%;
+        border-radius: 40px;
+    }
+    
     .subMenu ul{
-        flex-direction: column;
+        flex-direction: flex;
+        justify-content: center;
         align-items: center;
     }
 
