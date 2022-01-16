@@ -289,8 +289,8 @@ ul{
     }
 
     .subMenu li{
-        width: 100px;
-        height: auto;
+        width: 25%;
+        height: 100%;
         color: white;
         margin: 1% 2% 5%x 2%;
         border-radius: 40px;
