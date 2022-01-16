@@ -281,10 +281,12 @@ ul{
     margin: 3% auto;
     }
 
-    /* SUB-MENU */
-    /* .subMenu ul li {
-        margin: 10px 10px 0 10px;
-    } */
+    /* SUB-MENU */  
+    .btn-outline-secondary{ 
+        width: 110px;
+        height: 35px;
+    }
+    
     
     .subMenu ul{
         flex-direction: flex;
@@ -293,8 +295,6 @@ ul{
     }
 
     .subMenu ul li{
-        width: 110px;
-        height: 35px;
         color: white;
         margin: 10px 5px 0 5px;
         border-radius: 40px;
