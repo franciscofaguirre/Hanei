@@ -115,6 +115,10 @@ button{
     background-color: #EBDBBD;
 }
 
+.subMenu{
+    margin-bottom: 2%;
+}
+
 .subMenu ul {
     display: flex;
     justify-content: center;
@@ -129,33 +133,22 @@ button{
     color: white;
     
 }
-/* 
-.tab-content {
-    > .tab-pane {
-      display: flex;
-  } */
-
-.tab-content{
-    display: none;
-}
- .tab-pane:active{
-     display: flex;
- } 
 
 
 /* SECCIONES DEL SUB-MENU */
 .card-img-top{
-    width: 90%;
+    width: 100%;
     height: 3% auto;
 }
 
 .card-body{
     width: 80%;
     height: 3% auto;
+    margin-left: 10%;
 }
 
 .card1 {
-    margin: 0 0 5% 10%;
+    margin: 0 0% 5% 0%;
 }
 
 
@@ -306,6 +299,12 @@ ul{
     .btn-outline-secondary{
         margin-bottom: 3px;
     }
+
+    /* SECCIONES DEL SUB-MENU */
+    .card1 {
+        margin: 0 0 0 5%;
+    }
+
 
     /* FOOTER */
     .footerDerechos{
