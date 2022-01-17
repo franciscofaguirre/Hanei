@@ -144,7 +144,6 @@ button{
 .link{
     color: black;
     text-decoration: none;
-    outline;
 }
 
 /* SECCIONES DEL SUB-MENU */
@@ -295,7 +294,7 @@ ul{
 
     /* SUB-MENU */  
     .btn-outline-secondary{ 
-        width: 110px;
+        width: 90px;
         height: 35px;
     }
     
