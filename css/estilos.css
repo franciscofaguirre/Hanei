@@ -18,7 +18,7 @@ Padding: 0;
     border: 0;
 }
 
-a:link, a:visited, a:active {
+a:link, a:visited, a:active, a:link{
     text-decoration:none;
 }
 
@@ -95,6 +95,10 @@ button{
     margin: 1% auto;
 }
 
+.carousel{
+    margin-bottom: 50px;
+} 
+
 
 /* SUB-MENU */
 .card{
@@ -103,7 +107,7 @@ button{
 
 .btn-outline-secondary{
     background-color: #B9AB8E; 
-    width: 140px;
+    width: 90px;
     height: 40px;
     margin-bottom: 10px;
     border: 0px solid;
@@ -116,7 +120,7 @@ button{
 }
 
 .subMenu{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .subMenu ul {
@@ -131,9 +135,17 @@ button{
 
 .subMenu a {
     color: white;
-    
 }
 
+.card-img-top{
+    margin-bottom: 10px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    outline;
+}
 
 /* SECCIONES DEL SUB-MENU */
 .card-img-top{
@@ -151,7 +163,6 @@ button{
 .card1 {
     margin: 0 0% 5% 0%;
 }
-
 
 
 /* FOOTER */
@@ -284,7 +295,7 @@ ul{
 
     /* SUB-MENU */  
     .btn-outline-secondary{ 
-        width: 110px;
+        width: 90px;
         height: 35px;
     }
     
@@ -310,10 +321,10 @@ ul{
 
     /* SECCIONES DEL SUB-MENU */
     .card1 {
-        margin: 0 0 0 0;
+        margin: 0 0 5% 0;
     }
 
-
+    
     /* FOOTER */
     .footerDerechos{
         font-size: 0.8rem;
